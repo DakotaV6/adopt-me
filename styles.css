@@ -1,0 +1,23 @@
+/** GENERAL **/
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    background: url(images/bulldog.jpg) no-repeat fixed;
+    background-size: cover;
+}
+section.left {
+    float: left;
+}
+h4 {
+    font-weight: 600;
+}
+
+/** HEADER **/
+nav {
+    float: right;
+}
+p.semi-bold {
+    font-weight: 400;
+}
+
+/** MAIN **/
