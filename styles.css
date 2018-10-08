@@ -2,14 +2,22 @@
 body {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
-    background: url(images/bulldog.jpg) no-repeat fixed;
+    background: url(images/bulldog.jpg) no-repeat;
     background-size: cover;
+    Background-color: #F0ECEE;
 }
 section.left {
     float: left;
 }
 h4 {
     font-weight: 600;
+}
+.emph-red {
+    color: #FF4850;
+}
+a {
+    text-decoration: none;
+    color: #88898B;
 }
 
 /** HEADER **/
@@ -19,5 +27,17 @@ nav {
 p.semi-bold {
     font-weight: 400;
 }
+nav a:hover {
+    color:#FF4850;
+}
 
 /** MAIN **/
+button {
+    background-color:#FF4850;
+    padding: 10px;
+    border-radius: 15px;
+}
+button:hover {
+    color: #FF4850;
+    background-color: #CCC;
+}
