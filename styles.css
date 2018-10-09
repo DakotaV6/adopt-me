@@ -1,16 +1,27 @@
 /** GENERAL **/
+/* border box fix*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     background: url(images/bulldog.jpg) no-repeat;
     background-size: cover;
-    Background-color: #F0ECEE;
+    background-color: #F0ECEE;
+    font-size: 18px;
 }
-section.left {
+div.left {
     float: left;
+    padding-left: 40px;
 }
 h4 {
     font-weight: 600;
+    font-size: 1.5em;
 }
 .emph-red {
     color: #FF4850;
@@ -18,6 +29,17 @@ h4 {
 a {
     text-decoration: none;
     color: #88898B;
+    padding: 7px;
+}
+button {
+    background-color:#FF4850;
+    padding: 10px;
+    border-radius: 15px;
+    color: #F0ECEE;
+}
+button:hover {
+    color: #FF4850;
+    background-color: #CCC;
 }
 
 /** HEADER **/
@@ -30,14 +52,29 @@ p.semi-bold {
 nav a:hover {
     color:#FF4850;
 }
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+}
+#contact {
+    width: 110px;
+    height: 50px;
+    font-size: 15px;
+}
+.nav-bar p {
+    margin: 0;
+    font-size: 25px;
+}
 
 /** MAIN **/
-button {
-    background-color:#FF4850;
-    padding: 10px;
-    border-radius: 15px;
+#how-button {
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
 }
-button:hover {
-    color: #FF4850;
-    background-color: #CCC;
+.main {
+    clear: both;
+    max-width: 530px;
+    padding-top: 200px;
 }
